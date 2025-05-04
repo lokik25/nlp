@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 
 # Download required resources
-for res in ["punkt", "stopwords", "wordnet"]:
+for res in ["punkt_tab", "stopwords", "wordnet"]:
     nltk.download(res)
 
 # Sample data
